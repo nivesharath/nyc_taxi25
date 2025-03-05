@@ -2,6 +2,9 @@ import joblib
 from hsml.model_schema import ModelSchema
 from hsml.schema import Schema
 from sklearn.metrics import mean_absolute_error
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import src.config as config
 from src.data_utils import transform_ts_data_info_features_and_target

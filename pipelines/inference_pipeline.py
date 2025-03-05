@@ -1,7 +1,9 @@
 from datetime import datetime, timedelta
 
 import pandas as pd
-
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import src.config as config
 from src.inference import (
     get_feature_store,
