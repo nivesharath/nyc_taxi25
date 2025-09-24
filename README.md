@@ -41,7 +41,7 @@ cd nyc_taxi25
 pip install -r requirements.txt
 
 ## Run forecasting script
-python src/run_forecast.py
+python src/frontend_v2.py
 
 ## Results
 
