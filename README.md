@@ -23,8 +23,11 @@ The goal is to provide accurate forecasts that can help optimize fleet managemen
 ## Repository Structure
 
 ├── notebooks/ # Data exploration & modeling
+
 ├── src/ # Forecasting scripts
+
 ├── powerbi/ # PBIX files for dashboards
+
 ├── requirements.txt # Dependencies
 
 
@@ -40,11 +43,16 @@ pip install -r requirements.txt
 # Run forecasting script
 python src/run_forecast.py
 
-**Results**
+# Results
+
 - Compared ETS, Holt-Winters, and LightGBM models
+
 - Identified weekly and monthly demand patterns
+
 - Delivered interactive Power BI dashboard for stakeholders
 
-**Future Improvements**
+# Future Improvements
+
 Add external regressors (weather, events) for improved accuracy
+
 Automate dashboard refresh using Power BI Service + AWS Lambda
