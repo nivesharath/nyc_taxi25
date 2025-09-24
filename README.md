@@ -22,14 +22,57 @@ The goal is to provide accurate forecasts that can help optimize fleet managemen
 
 ## Repository Structure
 
-├── notebooks/ # Data exploration & modeling
+├── .github/workflows/        # CI/CD pipelines
 
-├── src/ # Forecasting scripts
+│   ├── feature_pipeline.yaml
 
-├── powerbi/ # PBIX files for dashboards
+│   ├── inference_pipeline.yaml
 
-├── requirements.txt # Dependencies
+│   └── model_training_pipeline.yaml
 
+├── frontend/                 # Streamlit dashboards
+
+│   ├── frontend.py
+
+│   ├── frontend_v2.py
+
+│   └── frontend_monitor.py
+
+├── notebooks/                # Experiments, EDA & forecasting
+
+│   ├── 01_fetch_data.ipynb
+
+│   ├── ... (baseline, XGBoost, LightGBM, retraining)
+
+│   ├── ARIMA.ipynb
+
+│   ├── ARMA.ipynb
+
+│   └── Prophet.ipynb
+
+├── pipelines/                # ML pipelines
+
+│   ├── model_training_pipeline.py
+
+│   └── inference_pipeline.py
+
+├── src/                      # Core utilities
+
+│   ├── config.py
+
+│   ├── data_utils.py
+
+│   ├── feature_pipeline.py
+
+│   ├── inference.py
+
+│   └── plot_utils.py
+
+├── requirements.txt
+
+├── requirements_feature_pipeline.txt
+
+└── requirements_with_version.txt
 
 ## How to Run Locally
 
