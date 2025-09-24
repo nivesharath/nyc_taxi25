@@ -23,40 +23,28 @@ The goal is to provide accurate forecasts that can help optimize fleet managemen
 ## Repository Structure
 
 ├── notebooks/ # Data exploration & modeling
-
 ├── src/ # Forecasting scripts
-
 ├── powerbi/ # PBIX files for dashboards
-
 ├── requirements.txt # Dependencies
 
 
 ## How to Run Locally
 
 # Clone the repo
-
 git clone https://github.com/nivesharath/nyc_taxi25.git
-
 cd nyc_taxi25
 
 # Install dependencies
-
 pip install -r requirements.txt
 
 # Run forecasting script
-
 python src/run_forecast.py
 
 **Results**
-
 - Compared ETS, Holt-Winters, and LightGBM models
-
 - Identified weekly and monthly demand patterns
-
 - Delivered interactive Power BI dashboard for stakeholders
 
 **Future Improvements**
-
 Add external regressors (weather, events) for improved accuracy
-
 Automate dashboard refresh using Power BI Service + AWS Lambda
