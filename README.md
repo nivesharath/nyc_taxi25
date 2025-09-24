@@ -78,6 +78,7 @@ The goal is to provide accurate forecasts that can help optimize fleet managemen
 
 ## Clone the repo
 git clone https://github.com/nivesharath/nyc_taxi25.git
+
 cd nyc_taxi25
 
 ## Install dependencies
@@ -96,6 +97,6 @@ python frontend/frontend_v2.py
 
 ## Future Improvements
 
-Add external regressors (weather, events) for improved accuracy
+- Add external regressors (weather, events) for improved accuracy
 
-Automate dashboard refresh using Power BI Service + AWS Lambda
+- Automate dashboard refresh using Power BI Service + AWS Lambda
