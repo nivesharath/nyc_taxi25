@@ -33,17 +33,17 @@ The goal is to provide accurate forecasts that can help optimize fleet managemen
 
 ## How to Run Locally
 
-# Clone the repo
+## Clone the repo
 git clone https://github.com/nivesharath/nyc_taxi25.git
 cd nyc_taxi25
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Run forecasting script
+## Run forecasting script
 python src/run_forecast.py
 
-# Results
+## Results
 
 - Compared ETS, Holt-Winters, and LightGBM models
 
@@ -51,7 +51,7 @@ python src/run_forecast.py
 
 - Delivered interactive Power BI dashboard for stakeholders
 
-# Future Improvements
+## Future Improvements
 
 Add external regressors (weather, events) for improved accuracy
 
